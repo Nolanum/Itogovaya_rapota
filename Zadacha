@@ -25,3 +25,18 @@ for (int i = 0; i < Razmer; i++)
             j += 1;
         }
     }
+Сonsole.Write("["  + '"' + mass[0] + '"');
+for (int i = 1; i < Razmer; i++)
+    {
+        Console.Write(", " + '"' + mass[i] + '"' );
+    }
+Console.Write("] -> [");
+if (RazmerRes != 0)
+{
+Console.Write('"' + massRes[0] + '"');
+for (int i = 1; i < RazmerRes; i++)
+    {
+        Console.Write(", " + '"' + massRes[i] + '"' );
+    }
+}
+Console.Write("]");
